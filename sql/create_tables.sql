@@ -45,6 +45,7 @@ CREATE TABLE actor (
 CREATE TABLE film_actor (
     film_id SERIAL,
     actor_id SERIAL,
+    is_star BOOLEAN,
     PRIMARY KEY (film_id, actor_id),
     FOREIGN KEY (film_id) REFERENCES film (film_id) ON DELETE CASCADE,
     FOREIGN KEY (actor_id) REFERENCES actor (actor_id) ON DELETE CASCADE
