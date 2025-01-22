@@ -13,6 +13,8 @@ There are two sets of data.
 
 Before using either, you should run [create_tables.sql](sql\create_tables.sql).
 
+All queries can be found in [queries.sql](sql\queries.sql).
+
 ## Learning Objectives
 
 - Introduce SQL version of FKs and demonstrate how they relate to PKs in other tables
